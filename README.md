@@ -115,12 +115,14 @@ Page({
 ### message-component 组件
 
 #### 属性
+
 |属性名|含义|数据类型|必填|默认值|
 |--|--|--|--|---|
 |formData|表单信息|Array&lt;Object>|是|-|
 |templateId|模板 id，如果不填则需要在云函数中配置|String|否|-|
 
 #### formData 属性
+
 |属性名|含义|数据类型|必填|
 |--|--|--|--|--|
 |title|呈现在页面上的名字|String|是|
@@ -143,6 +145,7 @@ wx.cloud.callFunction({
 })
 ```
 #### data 属性
+
 |属性名|含义|数据类型|必填|默认值|
 |--|--|--|--|---|
 |code|用户登录凭证，用于openId拿不到的情况|String|否|-|
