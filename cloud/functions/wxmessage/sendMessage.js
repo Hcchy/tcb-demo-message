@@ -18,7 +18,7 @@ module.exports = async function ({
   const access_token = await wxMiniUser.getAccessToken();
 
   if (!openId) {
-    openId = await wxMiniUser.getopenId(code);
+    const { openId } = await wxMiniUser.codeToSession(code);
   }
 
   const wxMiniMessage = new WXMINIMessage({ openId, formId, templateId });
