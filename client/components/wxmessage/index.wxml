@@ -1,0 +1,26 @@
+<form bindsubmit="wxMessage" report-submit="true">
+  <view class="weui-cells weui-cells_after-title form-container">
+    <view
+      wx:for="{{formData}}"
+      hidden="{{key.hidden ? true : false}}"
+      wx:for-item="key"
+      wx:key="index"
+      class="weui-cell weui-cell_input"
+    >
+      <view class="weui-cell__hd">
+        <view class="weui-label">{{key.title}}</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input
+          class="weui-input"
+          name="{{key.name}}"
+          value="{{key.defaultValue}}"
+          placeholder="{{key.placeholder}}"
+        />
+      </view>
+    </view>
+  </view>
+  <view class="weui-btn-area">
+    <button class="weui-btn" formType="submit" type="primary">确定</button>
+  </view>
+</form>
