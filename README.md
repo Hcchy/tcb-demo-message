@@ -136,7 +136,19 @@ Page({
 ```javascript
 wx.cloud.callFunction({
     name: 'wxmessage',
-    data: {},
+    data: {
+        code: 'xxx',
+        formId: 'xxx',
+        templateId: 'xxx',
+        data: {
+            keyword1: {
+                value: 'xxx'
+            },
+            keyword2: {
+                value: 'xxx'
+            }
+        }
+    }
 }).then((res) => {
 
 })
@@ -144,7 +156,7 @@ wx.cloud.callFunction({
 
 })
 ```
-#### data 属性
+#### 属性
 
 |属性名|含义|数据类型|必填|默认值|
 |--|--|--|--|---|
@@ -155,7 +167,7 @@ wx.cloud.callFunction({
 |page|点击模板卡片后的跳转页|String|否|-|
 |templateId|模板 id|String|否|-|
 
-#### data.data 属性
+#### data 属性
 ```javascript
 {
     keyword1: {
