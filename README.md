@@ -1,5 +1,5 @@
 # 小程序模板消息服务组件
-在小程序云中下发模板消息的自定义组件实例
+基于小程序云开发的模板消息的自定义组件实例
 
 ![界面展示](https://ask.qcloudimg.com/draft/1011618/a51x8b25ql.jpg)
 
@@ -25,9 +25,9 @@ project
 `project.config.json`
 ```javascript
 ...
-    "libVersion": "2.1.1",
+    "libVersion": "2.2.4",
     "appid": "your appid here",
-    "projectname": "message-component",
+    "projectname": "tcb-message-component",
 ...
 ```
 
