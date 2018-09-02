@@ -1,7 +1,7 @@
 {
-  "name": "message-component",
+  "name": "tcb-demo-message",
   "version": "1.0.0",
-  "description": "在小程序云中下发模板消息的自定义组件实例",
+  "description": "基于小程序云开发的模板消息 DEMO",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
