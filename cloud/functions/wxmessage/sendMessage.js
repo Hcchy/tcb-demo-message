@@ -17,6 +17,7 @@ module.exports = async function ({
   const wxMiniUser = new WXMINIUser({ appId, secret });
   const access_token = await wxMiniUser.getAccessToken();
 
+  // 在小程序云开发的云函数中，可以不用传小程序的登陆 code
   if (!openId) {
     const { openId } = await wxMiniUser.codeToSession(code);
   }

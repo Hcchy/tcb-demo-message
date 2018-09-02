@@ -35,7 +35,6 @@ App({
         });
 
         wx.cloud.init({
-            env: '',
             traceUser: true
         });
     },
