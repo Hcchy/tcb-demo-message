@@ -1,5 +1,5 @@
 {
-	"description": "tcb 模板消息组件",
+	"description": "tcb 模板消息 DEMO",
 	"cloudfunctionRoot": "cloud/functions/",
 	"miniprogramRoot": "client/",
 	"packOptions": {
@@ -16,7 +16,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.2.4",
 	"appid": "",
-	"projectname": "tcb-component-message",
+	"projectname": "tcb-demo-message",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
