@@ -27,7 +27,7 @@ project
 ...
     "libVersion": "2.2.4",
     "appid": "your appid here",
-    "projectname": "message-component",
+    "projectname": "tcb-message-component",
 ...
 ```
 
